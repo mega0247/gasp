@@ -1,12 +1,21 @@
 {
   "name": "redirect-worker",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "Cloudflare Worker for handling redirects",
   "main": "src/worker.js",
   "scripts": {
     "deploy": "npx wrangler deploy"
   },
   "devDependencies": {
+=======
+  "description": "Cloudflare Worker for Random URL Redirection",
+  "main": "src/worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+>>>>>>> 6124bc8 (Initial commit)
     "wrangler": "^4.0.0"
   }
 }
